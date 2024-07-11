@@ -26,6 +26,8 @@ const (
 	AnnotationKeyNodeName = workflow.WorkflowFullName + "/node-name"
 	// AnnotationKeyNodeName is the node's type
 	AnnotationKeyNodeType = workflow.WorkflowFullName + "/node-type"
+	// AnnotationKeyNodeName is to persist pod logs
+	AnnotationKeyLogging = "prometheus.io/logging"
 
 	// AnnotationKeyRBACRule is a rule to match the claims
 	AnnotationKeyRBACRule           = workflow.WorkflowFullName + "/rbac-rule"
