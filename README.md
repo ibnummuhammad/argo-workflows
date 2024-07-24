@@ -26,6 +26,12 @@ Argo is a [Cloud Native Computing Foundation (CNCF)](https://cncf.io/) hosted pr
 * Infrastructure automation
 * CI/CD
 
+## Build image
+
+```sh
+make workflow-controller-image
+```
+
 ## Why Argo Workflows?
 
 * Argo Workflows is the most popular workflow execution engine for Kubernetes.
