@@ -43,6 +43,12 @@ make workflow-controller-image
 
 [Read what people said in our latest survey](https://blog.argoproj.io/argo-workflows-2021-survey-results-d6fa890030ee)
 
+## How to build image?
+
+```
+make workflow-controller-image
+```
+
 ## Try Argo Workflows
 
 [Access the demo environment](https://workflows.apps.argoproj.io/workflows/argo) (login using Github)
